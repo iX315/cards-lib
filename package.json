@@ -1,7 +1,20 @@
 {
+	"name": "@ix315/cards-lib",
 	"description": "A simple typescript library for handling card games",
-	"version": "0.1.0",
+	"author": {
+		"name": "Jury Giannelli",
+		"email": "iX315@me.com"
+	},
+	"version": "0.1.1",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iX315/cards-lib"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"module": "dist/cards-lib.esm.js",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
 	"files": [
@@ -36,9 +49,6 @@
 		"singleQuote": true,
 		"trailingComma": "es5"
 	},
-	"name": "cards-lib",
-	"author": "Jury Giannelli",
-	"module": "dist/cards-lib.esm.js",
 	"size-limit": [
 		{
 			"path": "dist/cards-lib.cjs.production.min.js",
