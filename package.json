@@ -16,7 +16,7 @@
 	},
 	"module": "dist/cards-lib.esm.js",
 	"main": "dist/index.js",
-	"typings": "dist/index.d.ts",
+	"typings": "dist/types/index.d.ts",
 	"files": [
 		"dist",
 		"src"
