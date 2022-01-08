@@ -22,14 +22,14 @@
 		"src"
 	],
 	"engines": {
-		"node": ">=10"
+		"node": ">=12"
 	},
 	"scripts": {
-		"start": "tsdx watch",
-		"build": "tsdx build",
-		"test": "tsdx test",
-		"lint": "tsdx lint",
-		"prepare": "tsdx build",
+		"start": "dts watch",
+		"build": "dts build",
+		"test": "dts test",
+		"lint": "dts lint",
+		"prepare": "dts build",
 		"size": "size-limit",
 		"analyze": "size-limit --why",
 		"format": "prettier --config .prettierrc.json --write ."
@@ -37,7 +37,7 @@
 	"peerDependencies": {},
 	"husky": {
 		"hooks": {
-			"pre-commit": "tsdx lint"
+			"pre-commit": "dts lint"
 		}
 	},
 	"lint-staged": {
@@ -60,20 +60,20 @@
 		}
 	],
 	"devDependencies": {
-		"@jest/test-sequencer": "^26.6.3",
-		"@size-limit/preset-small-lib": "^4.10.2",
+		"@jest/test-sequencer": "^27.4.6",
+		"@size-limit/preset-small-lib": "^7.0.5",
 		"@types/d3-array": "^2.9.0",
-		"husky": "^6.0.0",
-		"lint-staged": "^10.5.4",
-		"prettier": "2.2.1",
-		"size-limit": "^4.10.2",
-		"tsdx": "^0.14.1",
-		"tslib": "^2.2.0",
-		"typescript": "^4.2.4"
+		"husky": "^7.0.4",
+		"lint-staged": "^12.1.7",
+		"prettier": "2.5.1",
+		"size-limit": "^7.0.5",
+		"tslib": "^2.3.1",
+		"typescript": "^4.5.4",
+		"dts-cli": "^1.1.5"
 	},
 	"dependencies": {
 		"chalk": "^4.1.1",
 		"d3-array": "^2.12.1",
-		"nanoid": "^3.1.22"
+		"nanoid": "^3.1.30"
 	}
 }
