@@ -6,7 +6,7 @@
 		"email": "iX315@me.com"
 	},
 	"version": "0.2.0",
-	"license": "MIT",
+	"license": "ISC",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/iX315/cards-lib"
