@@ -43,12 +43,6 @@
 	"lint-staged": {
 		"**/*": "prettier --write --ignore-unknown"
 	},
-	"prettier": {
-		"printWidth": 80,
-		"semi": true,
-		"singleQuote": true,
-		"trailingComma": "es5"
-	},
 	"size-limit": [
 		{
 			"path": "dist/cards-lib.cjs.production.min.js",
