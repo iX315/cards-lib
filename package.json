@@ -12,7 +12,7 @@
 		"url": "https://github.com/iX315/cards-lib"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
+		"access": "public"
 	},
 	"module": "dist/cards-lib.esm.js",
 	"main": "dist/index.js",
